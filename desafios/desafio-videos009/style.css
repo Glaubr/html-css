@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+
+
+body {
+    background-color: rgb(29, 29, 29);
+    color: white;
+}
+h1 {
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+}
+h2 {
+    padding-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+}
+.conteudo {
+    gap: 80px;
+}
+.img-cima {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.img-baixo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.iframe {
+    display: flex;
+    justify-content: center;
+}
+.botao {
+    padding-top: 30px;
+    display: block;
+    margin: auto;
+}
+.botao:hover {
+    color: white;
+}

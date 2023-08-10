@@ -1,0 +1,35 @@
+
+/*  em HTML é id = CSS é #
+    em HTML é class = CSS é .   */
+
+
+body {
+    font: normal 1em Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+}
+h1 {
+    font-size: 2em;
+    color: rgb(68, 23, 114);
+}
+h2 {
+    color: rebeccapurple;
+    text-align: center;
+}
+
+#titulo-principal {
+    background-color: rgb(73, 14, 60);
+    color: rgb(231, 209, 253);
+    text-align: center;
+}
+.topico1 {
+    color: rgba(129, 199, 18, 0.959);
+}
+.topico2 {
+    color: rgb(133, 20, 199);
+}
+.topico3 {
+    color: rgb(248, 87, 28);
+}
+.text {
+    text-align: justify;
+}

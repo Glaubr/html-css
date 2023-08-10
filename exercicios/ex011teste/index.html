@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha imagem dinâmica</title>
+</head>
+<body>
+    <h1>A seguir minha imagem se transformando</h1>
+    <p>
+        Aumente e diminua seu navegador:
+    </p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagem/fotoperfil-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="Imagem/fotoperfil-m.jpg" type="image/jpg">
+        <img src="Imagem/fotoperfil-g.jpg" alt="Imagem flexível">
+    </picture>
+</body>
+</html>

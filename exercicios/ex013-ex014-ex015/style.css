@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/*Regra '@charset' caso haja problemas com acentuação*/
+
+body {
+    background-color: rgb(47, 21, 71);
+    color: aliceblue;
+    font-size: 12pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    color: yellow;
+    background-color: black;
+}
+
+a {
+    color: beige;
+    text-decoration: none;
+}
